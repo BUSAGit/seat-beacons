@@ -1,5 +1,5 @@
 {
-    "name": "helious/seat-beacons",
+    "name": "busa-git/seat-beacons",
     "type": "library",
     "keywords": [
         "helious",
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Helious\\SeatBeacons\\": "src/"
+            "busa-git\\SeatBeacons\\": "src/"
         }
     },
     "require": {
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Helious\\SeatBeacons\\BeaconsServiceProvider"
+                "busa-git\\SeatBeacons\\BeaconsServiceProvider"
             ]
         }
     }
