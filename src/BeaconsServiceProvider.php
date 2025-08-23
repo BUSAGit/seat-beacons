@@ -109,6 +109,6 @@ class BeaconsServiceProvider extends AbstractSeatPlugin
      */
     public function getPackagistVendorName(): string
     {
-        return 'helious';
+        return 'busa-git';
     }
 }
