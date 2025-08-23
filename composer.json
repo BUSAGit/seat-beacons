@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Helious\\SeatBeacons\\": "src/"
+            "BusaGit\\SeatBeacons\\": "src/"
         }
     },
     "require": {
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Helious\\SeatBeacons\\BeaconsServiceProvider"
+                "BusaGit\\SeatBeacons\\BeaconsServiceProvider"
             ]
         }
     }
