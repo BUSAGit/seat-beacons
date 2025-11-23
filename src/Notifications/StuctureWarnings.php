@@ -1,6 +1,6 @@
 <?php
 
-namespace Helious\SeatBeacons\Notifications;
+namespace BusaGit\SeatBeacons\Notifications;
 
 use Seat\Notifications\Notifications\AbstractDiscordNotification;
 use Seat\Notifications\Services\Discord\Messages\DiscordEmbed;

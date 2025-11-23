@@ -1,10 +1,10 @@
 <?php
 
-namespace Helious\SeatBeacons;
+namespace BusaGit\SeatBeacons;
 
 use Seat\Services\AbstractSeatPlugin;
 use Illuminate\Console\Scheduling\Schedule;
-use Helious\SeatBeacons\Console\CheckBeaconFuel;
+use BusaGit\SeatBeacons\Console\CheckBeaconFuel;
 
 class BeaconsServiceProvider extends AbstractSeatPlugin
 {
@@ -107,6 +107,6 @@ class BeaconsServiceProvider extends AbstractSeatPlugin
      */
     public function getPackagistVendorName(): string
     {
-        return 'helious';
+        return 'busa-git';
     }
 }

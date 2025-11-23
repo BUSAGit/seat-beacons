@@ -1,10 +1,10 @@
 <?php
 
-namespace Helious\SeatBeacons\Http\Controllers;
+namespace BusaGit\SeatBeacons\Http\Controllers;
 
 use Seat\Eveapi\Models\Corporation\CorporationStructure;
 use Seat\Eveapi\Models\Corporation\CorporationStructureService;
-use Helious\SeatBeacons\Http\Datatables\BeaconsDataTable;
+use BusaGit\SeatBeacons\Http\Datatables\BeaconsDataTable;
 use Seat\Web\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;

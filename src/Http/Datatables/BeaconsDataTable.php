@@ -1,6 +1,6 @@
 <?php
 
-namespace Helious\SeatBeacons\Http\Datatables;
+namespace BusaGit\SeatBeacons\Http\Datatables;
 
 use Yajra\DataTables\Html\Button;
 use Yajra\DataTables\Html\Column;
