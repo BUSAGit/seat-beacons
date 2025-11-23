@@ -2,18 +2,18 @@
     "name": "busa-git/seat-beacons",
     "type": "library",
     "keywords": [
-        "helious",
+        "BusaGit",
         "seat-beacons"
     ],
     "authors": [
         {
-            "name": "Helious",
+            "name": "Busa-Git",
             "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Helious\\SeatBeacons\\": "src/"
+            "BusaGit\\SeatBeacons\\": "src/"
         }
     },
     "require": {
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Helious\\SeatBeacons\\BeaconsServiceProvider"
+                "BusaGit\\SeatBeacons\\BeaconsServiceProvider"
             ]
         }
     }
