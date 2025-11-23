@@ -62,7 +62,17 @@ class BeaconsServiceProvider extends AbstractSeatPlugin
         return __DIR__.'/routes.php';
     }
 
-    
+    /**
+     * Explicitly define the package tag for configuration loading.
+     * This is the fix for vendor name changes that break config merging.
+     *
+     * @return string
+     */
+    public function getPackagistTag() : string
+    {
+        // Must match the package name without the vendor prefix
+        return 'seat-beacons'; 
+    }
 
     /**
      * Return the plugin public name as it should be displayed into settings.
@@ -109,6 +119,6 @@ class BeaconsServiceProvider extends AbstractSeatPlugin
      */
     public function getPackagistVendorName(): string
     {
-        return 'busa-git';
+        return 'Helious';
     }
 }
