@@ -17,7 +17,7 @@ class BeaconsServiceProvider extends AbstractSeatPlugin
     public function register()
     {
         $this->mergeConfigFrom(__DIR__ . '/Config/seat-beacons.php', 'seat-beacons');
-        $this->mergeConfigFrom(__DIR__ . '/Config/seat-beacons.sidebar.php', 'package.sidebar.tools.entries');
+        $this->mergeConfigFrom(__DIR__ . '/Config/seat-beacons.sidebar.php', 'package.sidebar');
         $this->registerPermissions(__DIR__ . '/Config/seat-beacons.permissions.php', 'seat-beacons');
     }
 
@@ -83,7 +83,7 @@ class BeaconsServiceProvider extends AbstractSeatPlugin
      */
     public function getPackageRepositoryUrl(): string
     {
-        return 'https://github.com/mackenziexD/seat-beacons';
+        return 'https://github.com/busa-git/seat-beacons';
     }
 
     /**
